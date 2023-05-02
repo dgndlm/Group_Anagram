@@ -13,7 +13,17 @@ public class StringUtil {
 
 
 
+    public static int frequency(String sentence, String word){
 
+        int count = 0;
+
+        while(sentence.contains(word)){
+            sentence = sentence.replaceFirst(word, "");
+            count++;
+        }
+
+        return count;
+    }
 
 
 
