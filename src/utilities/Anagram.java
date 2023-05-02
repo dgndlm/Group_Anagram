@@ -7,5 +7,7 @@ public class Anagram {
 
      System.out.println("Hello");
 
+        System.out.println(" Doing some extra work");
+
     }
 }
