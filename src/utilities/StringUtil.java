@@ -11,9 +11,22 @@ public class StringUtil {
         return reverse;
     }
 
+    public static void main(String[] args) {
+        System.out.println(" Hello Girls! ");
+    }
 
 
+    public static int frequency(String sentence, String word){
 
+        int count = 0;
+
+        while(sentence.contains(word)){
+            sentence = sentence.replaceFirst(word, "");
+            count++;
+        }
+
+        return count;
+    }
 
 
 
