@@ -1,6 +1,6 @@
 package utilities;
 
-import java.util.Arrays;
+
 public class ArrayUtil {
     public static int[] reverse(int[] array) {
 
