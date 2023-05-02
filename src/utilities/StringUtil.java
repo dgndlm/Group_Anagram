@@ -11,6 +11,9 @@ public class StringUtil {
         return reverse;
     }
 
+    public static void main(String[] args) {
+        System.out.println(" Hello Girls! ");
+    }
 
 
     public static int frequency(String sentence, String word){
