@@ -16,5 +16,11 @@ public class Anagram {
         }
 
         // convert string
+  
+        String str1="Git Practice";
+        int numberOfPeople=4;
+
+     System.out.println("Hello");
+
     }
 }
